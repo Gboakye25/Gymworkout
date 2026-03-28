@@ -3,17 +3,18 @@
 <h1 class="mb-4">Gym Workouts</h1>
 <p class="mb-4">Choose a workout based on your goal and fitness level.</p>
 
-<div class="row">
-    <div class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm">
-            <div class="card-body">
-                <h3 class="card-title">Beginner Full Body</h3>
-                <p><strong>Category:</strong> Beginner</p>
-                <p><strong>Difficulty:</strong> Easy</p>
-                <p>This workout is good for people starting the gym and covers the full body.</p>
-            </div>
+<div class="col-md-4 mb-4">
+    <div class="card h-100 shadow-sm">
+        <div class="card-body">
+            <h3 class="card-title">Beginner Full Body</h3>
+            <p><strong>Category:</strong> Beginner</p>
+            <p><strong>Difficulty:</strong> Easy</p>
+            <p>This workout is good for people starting the gym and covers the full body.</p>
+
+            <a href="#" class="btn btn-success">View Details</a>
         </div>
     </div>
+</div>
 
     <div class="col-md-4 mb-4">
         <div class="card h-100 shadow-sm">
