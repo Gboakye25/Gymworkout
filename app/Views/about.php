@@ -10,7 +10,7 @@
             The website is designed for people who want an easy way to view workout types such as beginner training, strength workouts, lower body sessions, and cardio routines.
         </p>
         <p>
-            This project was developed using CodeIgniter, PHP, HTML, and CSS as part of a university web development assignment.
+            This project was developed using CodeIgniter, PHP, HTML, CSS, and Bootstrap as part of a university web development assignment.
         </p>
     </div>
 

@@ -6,7 +6,7 @@
         <p class="col-md-8 fs-5">
             FitTrack is a simple gym workouts website that helps users find workout ideas for different fitness goals.
         </p>
-        <a href="/workouts" class="btn btn-success btn-lg">View Workouts</a>
+        <a href="<?= base_url('workouts') ?>" class="btn btn-success btn-lg">View Workouts</a>
     </div>
 </div>
 

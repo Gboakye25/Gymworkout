@@ -7,20 +7,20 @@
             If you have any questions about workouts or fitness goals, send us a message below.
         </p>
 
-        <form>
+        <form action="<?= base_url('contact/submit') ?>" method="post">
             <div class="mb-3">
-                <label for="name" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" name="name" placeholder="Enter your name" required>
             </div>
 
             <div class="mb-3">
-                <label for="email" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-control" name="email" placeholder="Enter your email" required>
             </div>
 
             <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Write your message"></textarea>
+                <label class="form-label">Message</label>
+                <textarea class="form-control" name="message" rows="5" placeholder="Write your message" required></textarea>
             </div>
 
             <button type="submit" class="btn btn-success">Send Message</button>
@@ -31,7 +31,7 @@
         <div class="card shadow-sm">
             <div class="card-body">
                 <h4>Contact Information</h4>
-                <p><strong>Email:</strong> G.boakye@wlv.ac.uk </p>
+                <p><strong>Email:</strong> G.boakye@wlv.ac.uk</p>
                 <p><strong>Phone:</strong> 07424 128328</p>
                 <p><strong>Location:</strong> Wolverhampton, UK</p>
             </div>

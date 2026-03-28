@@ -2,10 +2,16 @@
 
 namespace App\Controllers;
 
+use App\Models\WorkoutModel;
+
 class Workouts extends BaseController
 {
     public function index()
     {
-        return view('workouts');
+        $workoutModel = new WorkoutModel();
+
+        $data['workouts'] = $workoutModel->findAll();
+
+        return view('workouts', $data);
     }
 }
