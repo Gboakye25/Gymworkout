@@ -16,11 +16,11 @@ class Contact extends BaseController
         $contactModel = new ContactModel();
 
         $contactModel->save([
-            'name' => $this->request->getPost('name'),
-            'email' => $this->request->getPost('email'),
+            'name'    => $this->request->getPost('name'),
+            'email'   => $this->request->getPost('email'),
             'message' => $this->request->getPost('message')
         ]);
 
-        return redirect()->to('/contact');
+        return redirect()->to(base_url('contact'));
     }
 }
