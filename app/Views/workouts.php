@@ -12,7 +12,9 @@
                         <div class="card-body">
                             <span class="workout-badge">Workout</span>
                             <h3 class="card-title"><?= esc($workout['name']) ?></h3>
-                            <p><?= esc($workout['description']) ?></p>
+                            <p style="white-space: pre-line;">
+                                 <?= esc($workout['description']) ?>
+                            </p>
                         </div>
                     </div>
                 </div>
