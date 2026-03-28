@@ -124,15 +124,31 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+<nav class="navbar navbar-expand-lg custom-navbar">
     <div class="container">
         <a class="navbar-brand" href="<?= base_url() ?>">FitTrack</a>
 
-        <div>
-            <a class="me-3" href="<?= site_url('/') ?>">Home</a>
-            <a class="me-3" href="<?= site_url('workouts') ?>">Workouts</a>
-            <a class="me-3" href="<?= site_url('about') ?>">About</a>
-            <a href="<?= site_url('contact') ?>">Contact</a>
+        <!-- Mobile toggle button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= site_url('/') ?>">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= site_url('workouts') ?>">Workouts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= site_url('about') ?>">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= site_url('contact') ?>">Contact</a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>
