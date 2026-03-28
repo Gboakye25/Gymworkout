@@ -14,8 +14,7 @@
                             <h3 class="card-title"><?= esc($workout['name']) ?></h3>
                             <p><?= esc($workout['description']) ?></p>
                             <p><strong>Slug:</strong> <?= esc($workout['slug']) ?></p>
-                            <a href="#" class="btn btn-success mt-2">View More</a>
-                        </div>
+                            <a href="<?= site_url('workouts/' . $workout['slug']) ?>" class="btn btn-success mt-2">View More</a>
                     </div>
                 </div>
             <?php endforeach; ?>
