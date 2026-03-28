@@ -25,13 +25,13 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
     <div class="container">
-        <a class="navbar-brand" href="<?= base_url('/') ?>">FitTrack</a>
+        <a class="navbar-brand" href="<?= base_url() ?>">FitTrack</a>
 
         <div>
-            <a class="text-white me-3" href="<?= base_url('/') ?>">Home</a>
-            <a class="text-white me-3" href="<?= base_url('workouts') ?>">Workouts</a>
-            <a class="text-white me-3" href="<?= base_url('about') ?>">About</a>
-            <a class="text-white" href="<?= base_url('contact') ?>">Contact</a>
+            <a class="text-white me-3" href="<?= site_url('/') ?>">Home</a>
+            <a class="text-white me-3" href="<?= site_url('workouts') ?>">Workouts</a>
+            <a class="text-white me-3" href="<?= site_url('about') ?>">About</a>
+            <a class="text-white" href="<?= site_url('contact') ?>">Contact</a>
         </div>
     </div>
 </nav>
