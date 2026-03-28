@@ -1,24 +1,20 @@
 <?= $this->include('layouts/header') ?>
 
 <div class="hero-section">
-    <h1>Train Better with FitTrack</h1>
-    <p class="mt-3 mb-4">
-        Discover simple workout ideas, build consistency, and stay motivated with a clean and easy gym workouts website.
+    <h1>Welcome to FitTrack</h1>
+    <p>
+        A simple gym workouts website to help you discover useful workout ideas and keep your training organised.
     </p>
-    <a href="<?= base_url('workouts') ?>" class="btn btn-success btn-lg">Explore Workouts</a>
+    <a href="<?= base_url('workouts') ?>" class="btn btn-main mt-4">View Workouts</a>
 </div>
-
-<h2 class="section-title text-center">Why Use FitTrack?</h2>
-<p class="section-subtitle text-center">Everything you need to keep your training simple and organised.</p>
 
 <div class="row text-center">
     <div class="col-md-4 mb-4">
         <div class="card h-100 p-3">
             <div class="card-body">
-                <div class="feature-icon">💪</div>
-                <h3 class="card-title">Beginner Friendly</h3>
+                <h3 class="card-title">Simple to Use</h3>
                 <p class="card-text">
-                    Simple workout ideas for people who want to start training with confidence.
+                    Browse workouts easily with a clean and straightforward layout.
                 </p>
             </div>
         </div>
@@ -27,10 +23,9 @@
     <div class="col-md-4 mb-4">
         <div class="card h-100 p-3">
             <div class="card-body">
-                <div class="feature-icon">🏋️</div>
-                <h3 class="card-title">Build Strength</h3>
+                <h3 class="card-title">Useful Workouts</h3>
                 <p class="card-text">
-                    Explore workouts designed to improve strength, fitness, and routine.
+                    Find workout ideas for different training goals and routines.
                 </p>
             </div>
         </div>
@@ -39,10 +34,9 @@
     <div class="col-md-4 mb-4">
         <div class="card h-100 p-3">
             <div class="card-body">
-                <div class="feature-icon">🔥</div>
-                <h3 class="card-title">Stay Consistent</h3>
+                <h3 class="card-title">Easy Navigation</h3>
                 <p class="card-text">
-                    Keep your goals in mind with workouts that are easy to browse and understand.
+                    Move around the website quickly and access important pages with ease.
                 </p>
             </div>
         </div>

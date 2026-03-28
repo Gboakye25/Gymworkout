@@ -5,7 +5,7 @@
         <div class="col-md-8">
             <h1 class="section-title">Contact Us</h1>
             <p class="section-subtitle">
-                If you have any questions about workouts or fitness goals, send us a message below.
+                Send a message if you have any questions about workouts or fitness goals.
             </p>
 
             <form action="<?= base_url('contact/submit') ?>" method="post">
@@ -24,7 +24,7 @@
                     <textarea class="form-control" name="message" rows="5" placeholder="Write your message" required></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-success">Send Message</button>
+                <button type="submit" class="btn btn-main">Send Message</button>
             </form>
         </div>
 
@@ -35,7 +35,6 @@
                     <p><strong>Email:</strong> G.boakye@wlv.ac.uk</p>
                     <p><strong>Phone:</strong> 07424 128328</p>
                     <p><strong>Location:</strong> Wolverhampton, UK</p>
-                    <p><strong>Hours:</strong> Mon - Sat, 6am - 10pm</p>
                 </div>
             </div>
         </div>

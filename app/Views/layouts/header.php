@@ -7,113 +7,98 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #f5f7f9;
+            background-color: #eef6fb;
             font-family: Arial, sans-serif;
-            color: #222;
+            color: #1f2d3d;
         }
 
         .custom-navbar {
-            background: linear-gradient(90deg, #14532d, #16a34a);
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+            background-color: #8ecae6;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
         }
 
         .custom-navbar .navbar-brand,
         .custom-navbar a {
-            color: white !important;
+            color: #0b3c5d !important;
             font-weight: 600;
             text-decoration: none;
         }
 
         .custom-navbar a:hover {
-            color: #d1fae5 !important;
+            color: #ffffff !important;
         }
 
         .hero-section {
-            background: linear-gradient(rgba(20, 83, 45, 0.85), rgba(22, 163, 74, 0.8)),
-                        url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1200&q=80');
-            background-size: cover;
-            background-position: center;
-            color: white;
+            background: linear-gradient(135deg, #d9f0ff, #bde0fe);
             border-radius: 20px;
-            padding: 80px 40px;
+            padding: 70px 40px;
             margin-bottom: 40px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
         }
 
         .hero-section h1 {
-            font-size: 3rem;
+            font-size: 2.8rem;
             font-weight: 700;
+            color: #0b3c5d;
         }
 
         .hero-section p {
             font-size: 1.1rem;
+            color: #355070;
             max-width: 700px;
+            margin: 20px auto 0;
         }
 
         .section-title {
             font-size: 2rem;
             font-weight: 700;
-            color: #14532d;
+            color: #0b3c5d;
             margin-bottom: 10px;
         }
 
         .section-subtitle {
-            color: #555;
+            color: #4f6d7a;
             margin-bottom: 30px;
-        }
-
-        .card {
-            border: none;
-            border-radius: 18px;
-            overflow: hidden;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-            background-color: white;
-        }
-
-        .card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
-        }
-
-        .card-title {
-            color: #14532d;
-            font-weight: 700;
-        }
-
-        .btn-success {
-            background-color: #16a34a;
-            border-color: #16a34a;
-            border-radius: 10px;
-            padding: 10px 20px;
-            font-weight: 600;
-        }
-
-        .btn-success:hover {
-            background-color: #15803d;
-            border-color: #15803d;
         }
 
         .page-box {
             background: white;
             border-radius: 18px;
             padding: 30px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
         }
 
-        footer {
-            background: #111827;
+        .card {
+            border: none;
+            border-radius: 18px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+            background: #ffffff;
         }
 
-        .feature-icon {
-            font-size: 2rem;
-            margin-bottom: 10px;
+        .card-title {
+            color: #0b3c5d;
+            font-weight: 700;
+        }
+
+        .btn-main {
+            background-color: #5dade2;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 12px 24px;
+            font-weight: 600;
+        }
+
+        .btn-main:hover {
+            background-color: #3498db;
+            color: white;
         }
 
         .workout-badge {
             display: inline-block;
-            background-color: #dcfce7;
-            color: #166534;
+            background-color: #d6eef9;
+            color: #0b3c5d;
             padding: 6px 12px;
             border-radius: 999px;
             font-size: 0.85rem;
@@ -121,13 +106,18 @@
             margin-bottom: 12px;
         }
 
+        footer {
+            background-color: #8ecae6;
+            color: #0b3c5d;
+        }
+
         @media (max-width: 768px) {
             .hero-section {
-                padding: 50px 25px;
+                padding: 45px 25px;
             }
 
             .hero-section h1 {
-                font-size: 2.2rem;
+                font-size: 2rem;
             }
         }
     </style>
@@ -139,10 +129,10 @@
         <a class="navbar-brand" href="<?= base_url() ?>">FitTrack</a>
 
         <div>
-            <a class="text-white me-3" href="<?= site_url('/') ?>">Home</a>
-            <a class="text-white me-3" href="<?= site_url('workouts') ?>">Workouts</a>
-            <a class="text-white me-3" href="<?= site_url('about') ?>">About</a>
-            <a class="text-white" href="<?= site_url('contact') ?>">Contact</a>
+            <a class="me-3" href="<?= site_url('/') ?>">Home</a>
+            <a class="me-3" href="<?= site_url('workouts') ?>">Workouts</a>
+            <a class="me-3" href="<?= site_url('about') ?>">About</a>
+            <a href="<?= site_url('contact') ?>">Contact</a>
         </div>
     </div>
 </nav>
